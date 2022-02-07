@@ -1,0 +1,17 @@
+{
+  "name": "jayscript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "binaryen": "^105.0.0",
+    "nodemon": "^2.0.15"
+  },
+  "type": "module",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
