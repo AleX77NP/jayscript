@@ -278,7 +278,7 @@ class CodegenVisitor {
     }
     visit(node) {
         const methodName = `visit${node.kind}`
-        if(typeof this[methodName] == 'function') {
+        if(typeof this[methodName] === 'function') {
             return this[methodName](node)
         }
 
